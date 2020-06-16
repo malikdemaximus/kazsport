@@ -49,11 +49,24 @@
 			</div>
 		</div>
 	</header>
-    <div class="slider">
-        <div class="slider-wrapper"></div>
-        <h1>Покрытие для игровых площадок</h1>
-        <h5>Травмобезопасность и высокая износоустойчивость</h5>
-        <button class="green-btn"><span>Узнать подробнее</span><img src="images/right-arrow.png" alt=""></button>
+    <div class="swiper-container swiper-bg">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slider">
+                <div class="slider-wrapper"></div>
+            </div>
+            <div class="swiper-slide slider">
+                <div class="slider-wrapper"></div>
+            </div>
+            <div class="swiper-slide slider">
+                <div class="slider-wrapper"></div>
+            </div>
+        </div>
+        <div class="slider-ex">
+            <h1>Покрытие для игровых площадок</h1>
+            <h5>Травмобезопасность и высокая износоустойчивость</h5>
+            <button class="green-btn"><span>Узнать подробнее</span><img src="images/right-arrow.png" alt=""></button>
+        </div>
+        <div class="swiper-pagination swiper-bg-pag"></div>
     </div>
     <div class="container about-us">
         <div class="row">
@@ -370,7 +383,7 @@
                     <h4 class="title">Отзывы</h4>
                     <div class="pagination">
                         <img src="images/right-arrow.svg" alt="" class="prev">
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination swiper-bet-pag"></div>
                         <img src="images/right-arrow.svg" alt="" class="next">
                     </div>
                 </div>
@@ -486,12 +499,22 @@
             slidesPerView: 3,
             spaceBetween: 30,
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-bet-pag',
                 type: 'fraction',
             },
             navigation: {
                 nextEl: '.next',
                 prevEl: '.prev',
+            },
+        });
+        var bgSwiper = new Swiper('.swiper-bg', {
+            pagination: {
+                el: '.swiper-bg-pag',
+                clickable: true,
+                loop: true,
+                renderBullet: function (index, className) {
+                    return '<div class="' + className + '">' + '</div>';
+                },
             },
         });
     </script>
