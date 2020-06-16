@@ -624,3 +624,236 @@ button:active {
 .footer-item .foot-item {
 	margin-bottom: 20px;
 }
+
+/*O nas - start*/
+.section-header {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sec-first-pole {
+    height: 520px;
+    background-image: url("../images/onas/pole.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    background-color: #FAFAFA
+}
+.onas-info {
+    background-color: #fff;
+    padding: 20px 25px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 50%;
+}
+.onas-info-title {
+    color: #32CC8B;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.onas-info-title:before {
+    content: url("../images/onas/trophy.png");
+    margin-right: 13px;
+    margin-bottom: -5px;
+}
+.onas-info-desc {
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.onas-info-body {
+    padding-left: 15px;
+    border-left: 2px solid #32CC8B;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.sec-stroitelsvo-sport {
+	padding-top: 115px;
+	background-color: #FAFAFA;
+	padding-bottom: 120px;
+}
+.sec-stroitelsvo-sport .section-header {
+	margin-bottom: 70px;
+}
+.arena-img {
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sec-kachestvo-prof {
+	padding-bottom: 160px;
+	padding-top: 50px;
+	background-color: #fff;
+}
+.sec-kachestvo-prof .section-header {
+	margin-bottom: 120px;
+}
+.pokazateli-number {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 700;
+	color: #7766E1;
+	font-size: 48px;
+}
+.pokazateli-desc {
+	margin-top: 35px;
+	padding: 0 15px;
+}
+
+.sec-preimushestvo-sotrud {
+	background-color: #FAFAFA;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.sec-preimushestvo-sotrud .section-header {
+	margin-bottom: 100px;
+}
+.advantage-title {
+	font-size: 18px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.advantage-odd {
+	padding-top: 135px;
+}
+
+.sec-detalnaia-inform {
+	background-color: #fff;
+	padding-top: 127px;
+	padding-bottom: 127px;
+}
+.detail-info-text {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.detail-info-btn {
+	margin: 0 auto;
+}
+.detail-info-btn span {
+	font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+    .sec-first-pole {
+        height: auto;
+        padding-top: 50px;
+    }
+    .onas-info {
+        width: 75%;
+    }
+    .arena-img {
+        width: 100%;
+    }
+    .pokazateli-desc {
+        padding: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .onas-info {
+        width: 100%;
+    }
+    .stroi-text {
+        margin-bottom: 2rem;
+    }
+    .pokazateli-desc {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .sec-kachestvo-prof {
+        padding-bottom: 70px;
+    }
+    .advantage-odd {
+         padding-top: 0;
+    }
+    .advantage-desc {
+        margin-bottom: 60px;
+    }
+    .sec-preimushestvo-sotrud {
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 575.98px) {
+    .sec-first-pole {
+        background-image: url("../images/onas/pole2.png");
+        padding-top: 0;
+        margin-bottom: 60%;
+    }
+    body {
+        background-color: #FAFAFA;
+    }
+    .onas-info {
+        transform: translateY(83%);
+    }
+    .sec-stroitelsvo-sport {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    .sec-stroitelsvo-sport .section-header {
+        margin-bottom: 30px;
+    }
+    .sec-kachestvo-prof {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .sec-kachestvo-prof .section-header {
+        margin-bottom: 60px;
+    }
+    .pokazateli-desc {
+        padding: 0 10%;
+    }
+    .sec-preimushestvo-sotrud .section-header {
+        margin-bottom: 60px;
+    }
+    .sec-preimushestvo-sotrud {
+        padding-bottom: 30px;
+    }
+    .sec-detalnaia-inform {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .detail-info-text {
+        font-size: 16px;
+    }
+    .detail-info-text {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 519.98px) {
+    .sec-first-pole {
+        height: 290px;
+        margin-bottom: 80%;
+    }
+    .onas-info-body {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 414.98px) {
+    .onas-info-desc {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+    .onas-info-body {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .onas-info {
+        padding: 15px 15px;
+    }
+    .sec-first-pole {
+        margin-bottom: 70%;
+    }
+}
+@media (max-width: 340px) {
+    .sec-first-pole {
+        margin-bottom: 85%;
+    }
+}
+/*O-nas - end*/
