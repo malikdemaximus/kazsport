@@ -609,6 +609,7 @@ button:active {
     padding: 20px 25px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    width: 50%;
 }
 .onas-info-title {
     color: #32CC8B;
@@ -701,5 +702,121 @@ button:active {
 }
 .detail-info-btn span {
 	font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+    .sec-first-pole {
+        height: auto;
+        padding-top: 50px;
+    }
+    .onas-info {
+        width: 75%;
+    }
+    .arena-img {
+        width: 100%;
+    }
+    .pokazateli-desc {
+        padding: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .onas-info {
+        width: 100%;
+    }
+    .stroi-text {
+        margin-bottom: 2rem;
+    }
+    .pokazateli-desc {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .sec-kachestvo-prof {
+        padding-bottom: 70px;
+    }
+    .advantage-odd {
+         padding-top: 0;
+    }
+    .advantage-desc {
+        margin-bottom: 60px;
+    }
+    .sec-preimushestvo-sotrud {
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 575.98px) {
+    .sec-first-pole {
+        background-image: url("../images/onas/pole2.png");
+        padding-top: 0;
+        margin-bottom: 60%;
+    }
+    body {
+        background-color: #FAFAFA;
+    }
+    .onas-info {
+        transform: translateY(83%);
+    }
+    .sec-stroitelsvo-sport {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    .sec-stroitelsvo-sport .section-header {
+        margin-bottom: 30px;
+    }
+    .sec-kachestvo-prof {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .sec-kachestvo-prof .section-header {
+        margin-bottom: 60px;
+    }
+    .pokazateli-desc {
+        padding: 0 10%;
+    }
+    .sec-preimushestvo-sotrud .section-header {
+        margin-bottom: 60px;
+    }
+    .sec-preimushestvo-sotrud {
+        padding-bottom: 30px;
+    }
+    .sec-detalnaia-inform {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .detail-info-text {
+        font-size: 16px;
+    }
+    .detail-info-text {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 519.98px) {
+    .sec-first-pole {
+        height: 290px;
+        margin-bottom: 80%;
+    }
+    .onas-info-body {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 414.98px) {
+    .onas-info-desc {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+    .onas-info-body {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .onas-info {
+        padding: 15px 15px;
+    }
+    .sec-first-pole {
+        margin-bottom: 70%;
+    }
+}
+@media (max-width: 340px) {
+    .sec-first-pole {
+        margin-bottom: 85%;
+    }
 }
 /*O-nas - end*/
