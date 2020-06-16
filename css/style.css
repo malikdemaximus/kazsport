@@ -595,6 +595,46 @@ button:active {
 	font-size: 28px;
 }
 
+.sec-first-pole {
+    height: 520px;
+    background-image: url("../images/onas/pole.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    background-color: #FAFAFA
+}
+.onas-info {
+    background-color: #fff;
+    padding: 20px 25px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.onas-info-title {
+    color: #32CC8B;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.onas-info-title:before {
+    content: url("../images/onas/trophy.png");
+    margin-right: 13px;
+    margin-bottom: -5px;
+}
+.onas-info-desc {
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.onas-info-body {
+    padding-left: 15px;
+    border-left: 2px solid #32CC8B;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
 .sec-stroitelsvo-sport {
 	padding-top: 115px;
 	background-color: #FAFAFA;
