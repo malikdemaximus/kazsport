@@ -857,3 +857,201 @@ button:active {
     }
 }
 /*O-nas - end*/
+
+/*--------------- Tovari i Uslugi - start------------------------*/
+
+.top-main {
+	padding: 60px 0;
+}
+
+.gaz-title {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.gaz-title p {
+	color: #C4C4C4;
+	margin-left: 10px;
+}
+
+.top-main h5 {
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+.advantage {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.advantage .amount {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #32CC8B;
+	font-size: 14px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+}
+
+.iss-info {
+	margin-top: 40px;
+}
+
+.iss-info .green-line{
+	width: 160px;
+	height: 2px;
+	background-color: #32CC8B;
+	margin-bottom: 5px;
+}
+
+.advantages-section {
+	background-color: #FAFAFA;
+	padding-top: 100px;
+}
+.advantages-section .title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.advantages-section p {
+	text-align: center;
+}
+
+.advantages-section .green-line {
+	width: 160px;
+	height: 2px;
+	background-color: #32CC8B;
+	margin: 40px auto 5px auto;
+}
+
+.advantages-trava {
+	padding-top: 80px;
+}
+
+.adv-card {
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.02);
+	border-radius: 30px;
+	width: 100%;
+	padding: 25px;
+	height: 245px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+.adv-card .count {
+	color: #32CC8B;
+	font-weight: 800;
+	font-size: 36px;
+	margin-bottom: 14px;
+}
+
+.advantages-trava p {
+	text-align: left;
+}
+
+.last-info {
+	background-color: #FAFAFA;
+	padding: 100px 0;
+}
+
+.last-info .title{
+	margin-bottom: 70px;
+}
+
+.last-info-item {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.last-info-item h5 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.last-info-item p {
+	text-align: center;
+}
+
+.we-recommend {
+	background-color: #FAFAFA;
+	padding-bottom: 100px;
+}
+
+.we-recommend-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.we-recommend-title .text-title {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.we-recommend-title .arrows {
+	display: flex;
+	align-items: center;
+}
+.we-recommend-title .arrows .swiper-button-disabled {
+	background-color: rgba(224, 224, 224, 0.3);
+}
+
+.we-recommend-title .arrows .swiper-button-disabled img {
+	filter: unset;
+}
+
+.arrows .left-arrow, .arrows .right-arrow {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: #32CC8B;
+}
+
+.we-recommend-title .arrows .left-arrow {
+	margin-right: 12px;
+}
+.we-recommend-title .arrows .right-arrow {
+	transform: rotate(180deg);
+}
+
+
+.arrows .right-arrow img, .arrows .left-arrow img {
+	filter:  brightness(0) invert(1);
+}
+
+@media (max-width: 750px) {
+	.advantages-section {
+		padding-top: 0;
+	}
+	.advantages-trava {
+		padding-top: 40px;
+	}
+	.mob-iss-image {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.last-info-item {
+		margin: 15px 0;
+	}
+	.last-info .title {
+		margin-bottom: 30px;
+	}
+	.last-info {
+		padding: 50px 0;
+	}
+}
+/*--------------- Tovari i Uslugi - end------------------------*/
