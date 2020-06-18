@@ -862,7 +862,33 @@ button:active {
 .sec-karta {
 	padding-top: 60px;
 	background-color: #FAFAFA;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
+}
+.sec-karta .section-header {
+	margin-bottom: 40px;
+}
+.karta-self {
+	border-radius: 15px;
+	overflow: hidden
+}
+.karta-info {
+	padding: 15px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.03);
+	border-radius: 10px;
+	margin-top: -30px;
+}
+.karta-info-label {
+	color: #C4C4C4;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.karta-info-title {
+	font-weight: 500;
+}
+.karta-line {
+	width: 2px;
+	background-color: #E0E0E0;
 }
 
 .sec-contact-inform {
@@ -873,6 +899,7 @@ button:active {
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.03);
 	border-radius: 10px;
 	padding: 20px 25px;
+	margin-bottom: 30px;
 }
 .contact-inform-header {
 	text-transform: uppercase;
@@ -916,5 +943,33 @@ button:active {
 .contact-desc-body {
     color: #374759;
     margin-bottom: 30px;
+}
+@media (max-width: 991.98px) {
+	.karta-line {
+		width: 100%;
+		height: 2px;
+	}
+
+}
+@media (max-width: 767.98px) {
+	.karta-info {
+		margin-top: 15px;
+	}
+	.karta-self {
+		height: 350px;
+	}
+	.sec-karta {
+		padding-bottom: 60px;
+	}
+	.sec-contact-inform {
+		background-color: #fff;
+	}
+	.contact-inform {
+		box-shadow: none;
+		padding: 25px 0 30px 0;
+		margin-bottom: 0;
+	}
+
+
 }
 /*Contacts - end*/
