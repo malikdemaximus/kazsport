@@ -1154,7 +1154,6 @@ button:active {
 		width: 100%;
 		height: 2px;
 	}
-
 }
 @media (max-width: 767.98px) {
 	.karta-info {
@@ -1174,10 +1173,103 @@ button:active {
 		padding: 25px 0 30px 0;
 		margin-bottom: 0;
 	}
-
-
 }
 /*Contacts - end*/
+/*Oplata - start*/
+.sec-pospewi-sdelat {
+	height: 582px;
+	background-image: url("../images/oplata/box.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: bottom;
+	padding-top: 195px;
+}
+.pospewi-header {
+	color: #fff;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	font-size: 40px;
+	font-weight: 600;
+	position: relative;
+}
+.pospewi-header:before {
+	content: "";
+	background-image: url("../images/oplata/subtract.png");
+	position: absolute;
+	top: -55px;
+	width: 40px;
+	height: 44px;
+	background-repeat: no-repeat;
+}
+.sec-oplata-dos {
+	padding-top: 80px;
+}
+.sec-oplata-dos .section-header {
+	margin-bottom: 55px;
+}
+.oplata-text {
+	margin-left: 35px;
+	margin-right: 16%;
+}
+.oplata-text-title {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.text-sroki {
+	margin: 0 auto;
+}
+@media (max-width: 991.98px) {
+	.oplata-text {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+}
+@media (max-width: 767.98px) {
+	.oplata {
+		padding: 30px 0;
+	}
+	.sec-oplata-dos .section-header {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 575.98px) {
+	.sec-pospewi-sdelat {
+		height: 400px;
+		padding-top: 100px;
+	}
+	.pospewi-header {
+		font-size: 30px;
+	}
+}
+@media (max-width: 414.98px) {
+	.sec-pospewi-sdelat {
+		background-image: url("../images/oplata/box2.png");
+		height: 300px;
+		padding-top: 66px;
+	}
+	.pospewi-header {
+		font-size: 18px;
+	}
+	.pospewi-header:before {
+		top: -35px;
+		width: 24px;
+		height: 30px;
+		background-size: contain;
+	}
+	.oplata {
+		flex-direction: column;
+		text-align: center;
+	}
+	.oplata img {
+		margin: 0 auto;
+	}
+	.oplata-text {
+		margin-left: 0;
+	}
+
+}
+/*Oplata - end*/
 /*--------------- Sport areas - start------------------------*/
 
 
