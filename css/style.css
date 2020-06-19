@@ -1,6 +1,7 @@
 body {
 	font-family: 'Manrope', sans-serif;
 	color: #374759;
+	background-color: #FAFAFA;
 }
 p, h1, h2, h3, h4, h5 {
 	margin: 0;
@@ -38,6 +39,7 @@ button:active {
 
 .white-header {
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+	background-color: #fff;
 }
 
 .inner-black {
@@ -219,6 +221,10 @@ button:active {
 	font-weight: 500;
 	font-size: 16px;
 	color: #fff;
+}
+
+.about {
+	background-color: #fff;
 }
 
 .about-us {
@@ -501,6 +507,7 @@ button:active {
 
 .feedback {
 	padding: 60px 0;
+	background-color: #fff;
 }
 
 .title-arr {
@@ -730,7 +737,7 @@ button:active {
 }
 .detail-info-text {
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -1116,3 +1123,153 @@ button:active {
     margin-bottom: 30px;
 }
 /*Contacts - end*/
+/*--------------- Sport areas - start------------------------*/
+
+
+.sport-area-top-main {
+	background: url("../images/sport-area-bg.jpg") no-repeat center / cover;
+}
+
+.sport-area-card {
+	background: #FFFFFF;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 25px;
+}
+.advantages-trava .spec-info {
+	text-align: center;
+	font-weight: 600;
+	color: #FFFFFF;
+	background: #32CC8B;
+	border-radius: 19.5px;
+	padding: 4px 15px;
+	display: block;
+	width: max-content;
+	margin: 40px auto 20px auto;
+}
+
+.advantages-trava .extra-info {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.sport-area-top-main {
+		background: #fff;
+	}
+
+	.products {
+		padding: 50px 0;
+	}
+
+	.advantages-trava .spec-info {
+		width: auto;
+	}
+}
+
+
+/*--------------- Sport areas - end------------------------*/
+/*--------------- News - Start------------------------*/
+
+.news {
+	padding: 60px 0;
+}
+
+.news .title {
+	margin-bottom: 40px;
+}
+
+.news-item {
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 16px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	color: #374759 !important;
+	text-decoration: none;
+}
+.news-item:hover {
+	text-decoration: none;
+}
+.news-item .news-img {
+	margin-right: 25px;
+}
+.news-item .news-title {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.news-time {
+	display: flex;
+	align-items: center;
+}
+
+.news-time img {
+	margin-right: 5px;
+}
+.news-time p {
+	font-size: 14px;
+}
+
+@media (max-width: 450px) {
+	.news-item .news-title {
+		font-size: 13px;
+		padding-bottom: 7px;
+	}
+	.news .news-item, .news {
+		font-size: 12px;
+	}
+}
+/*--------------- News - end------------------------*/
+/*--------------- News-item - Start------------------------*/
+.news-single {
+	padding-bottom: 50px;
+}
+.news-card {
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 30px 40px;
+	margin: 50px 0;
+}
+.news-card .title {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.news-card .news-time {
+	margin-bottom: 30px;
+}
+
+.news-card .text {
+	padding-bottom: 20px;
+}
+
+.other-news h5 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+@media (max-width: 450px) {
+	.news-single {
+		padding-bottom: 25px;
+	}
+
+	.news-card {
+		padding: 14px;
+	}
+	.news-card .title {
+		font-size: 18px;
+	}
+
+	.news-card .news-item-img {
+		width: 100%;
+	}
+	.news-content .news-time p {
+		font-size: 12px;
+	}
+
+
+}
+
+/*--------------- News-item - end------------------------*/
