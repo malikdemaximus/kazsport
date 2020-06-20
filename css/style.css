@@ -1267,9 +1267,117 @@ button:active {
 	.oplata-text {
 		margin-left: 0;
 	}
-
 }
 /*Oplata - end*/
+/*Futbol-Pole - start*/
+.sec-futbol-pole {
+	padding: 60px 0;
+}
+.sec-futbol-pole .section-header {
+	margin-bottom: 50px;
+}
+.f-pole-card {
+	height: 150px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	display: flex;
+	width: 755px;
+	margin: 0 auto;
+}
+.f-pole-slider {
+	/*width: 265px;*/
+}
+.f-pole-body {
+	padding: 20px;
+}
+.f-pole-title {
+	color: #374759;
+	font-size: 20px;
+	max-height: 86px;
+	overflow-y: auto;
+}
+.f-pole-desc {
+	color: #374759;
+}
+.f-pole-slider .swiper-container {
+	width: 265px;
+	height: 100%;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.f-pole-slider .swiper-button-prev:after {
+	content: url("../images/pole/prev.png");
+}
+.f-pole-slider .swiper-button-next:after {
+	content: url("../images/pole/next.png");
+}
+.mb-30p {
+	margin-bottom: 30px;
+}
+
+.sec-rezinovii {
+	padding-bottom: 60px;
+}
+.sec-rezinovii .section-header {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 991.98px) {
+	.f-pole-card {
+		width: 100%;
+	}
+}
+@media (max-width: 767.98px) {
+	.f-pole-card {
+		height: 140px;
+	}
+	.f-pole-slider .swiper-container {
+		width: 200px;
+	}
+	.f-pole-title {
+		font-size: 16px;
+	}
+}
+@media (max-width: 575.98px) {
+	.sec-futbol-pole {
+		padding: 50px 0;
+	}
+	.sec-futbol-pole .section-header {
+		margin-bottom: 30px;
+	}
+	.f-pole-card {
+		height: 110px;
+	}
+	.f-pole-title {
+		font-size: 12px;
+	}
+	.f-pole-desc {
+		font-size: 12px;
+	}
+	.mb-30p {
+		margin-bottom: 15px;
+	}
+	.sec-rezinovii .section-header {
+		margin-bottom: 30px;
+	}
+	.f-pole-body {
+		padding: 10px;
+	}
+}
+@media (max-width: 454.98px) {
+	.f-pole-slider .swiper-container {
+		width: 160px;
+	}
+	.f-pole-slider .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+		left: 0px;
+	}
+	.f-pole-slider .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+		right: 0px;
+	}
+}
+/*Futbol-Pole - end*/
 /*--------------- Sport areas - start------------------------*/
 
 
