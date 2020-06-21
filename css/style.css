@@ -1378,6 +1378,216 @@ button:active {
 	}
 }
 /*Futbol-Pole - end*/
+/*Futbol-Pole Inside - start*/
+.sec-futbol-pole-inside {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+.sec-futbol-pole-inside .breadcrumb {
+	padding: 0;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+.sec-futbol-pole-inside .breadcrumb-item+.breadcrumb-item::before {
+	color: #32CC8B;
+	content: ">";
+	padding-right: 14px;
+}
+.sec-futbol-pole-inside .breadcrumb {
+	font-weight: 500;
+	font-size: 14px;
+}
+.breadcrumb-item a {
+	color: #32CC8B;
+}
+.sec-futbol-pole-inside .breadcrumb-item.active {
+	color: #C4C4C4;
+}
+.sec-futbol-pole-inside .breadcrumb-item+.breadcrumb-item {
+	padding-left: 14px;
+}
+.f-inside-card {
+	padding: 30px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.f-inside-gallery {
+	width: 560px;
+}
+.f-inside-info-title {
+	font-weight: 500;
+	font-size: 24px;
+	color: #374759;
+	margin-bottom: 20px;
+}
+.f-inside-info-desc {
+	font-weight: normal;
+	font-size: 16px;
+	color: #374759;
+	margin-bottom: 40px;
+}
+.f-inside-info {
+	padding-left: 40px;
+}
+.f-inside-gallery-slider {
+	padding-top: 40px;
+	text-align: center;
+}
+.uvelichit {
+	font-weight: 500;
+	font-size: 14px;
+	color: #C4C4C4;
+	padding-bottom: 20px;
+}
+.f-inside-gallery-swiper {
+	height: 95px;
+}
+.f-inside-gallery-swiper .swiper-container {
+	height: 95px;
+	width: 100%;
+	position: relative;
+}
+.f-inside-gallery-swiper .swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 3px;
+    display: block!important;
+}
+.f-inside-gallery-swiper .swiper-button-prev:after {
+	content: url("../images/pole/prev-b.png");
+}
+.f-inside-gallery-swiper .swiper-button-next:after {
+	content: url("../images/pole/next-b.png");
+}
+.f-inside-gallery-swiper .swiper-container:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	background: linear-gradient(270deg, #F7F7F7 -12.03%, rgba(247, 247, 247, 0.0001) -2.49%, #FAFAFA 24.16%);
+	width: 100px;
+	height: 100%;
+	z-index: 2;
+}
+.f-inside-gallery-swiper .swiper-container:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	background: linear-gradient(270deg, #F7F7F7 -12.03%, rgba(247, 247, 247, 0.0001) -2.49%, #FAFAFA 24.16%);;
+	width: 100px;
+	height: 100%;
+	z-index: 2;
+	top: 0;
+	transform: rotate(180deg);
+}
+
+.sec-smotri-takje {
+    padding-bottom: 90px;
+}
+.smotri-header {
+    font-size: 20px;
+    color: #374759;
+    margin-bottom: 20px;
+}
+.sec-smotri-takje .f-pole-card {
+    margin: 0;
+    margin-right: 30px;
+    height: 110px;
+    width: 490px;
+    margin-bottom: 30px;
+}
+.sec-smotri-takje .f-pole-slider .swiper-container {
+    width: 195px;
+}
+.sec-smotri-takje .f-pole-title {
+    font-size: 14px;
+}
+.sec-smotri-takje .f-pole-body {
+    padding: 9px 15px;
+}
+.gallery-big-image {
+    width: 558px;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199.98px) {
+    .f-inside-gallery {
+        width: 450px;
+    }
+    .gallery-big-image {
+        width: 450px;
+    }
+}
+@media (max-width: 991.98px) {
+    .f-inside-gallery {
+        width: 100%;
+    }
+    .gallery-big-image {
+        width: 100%;
+    }
+    .sec-futbol-pole-inside .contact-desc {
+        margin-top: 40px;
+    }
+    .f-inside-info-title {
+        font-size: 20px;
+    }
+    .sec-smotri-takje .f-pole-slider .swiper-container {
+        width: 150px;
+    }
+}
+@media (max-width: 767.98px) {
+    .sec-futbol-pole-inside .breadcrumb-item+.breadcrumb-item {
+        width: calc(100% - 120px);
+        height: 23px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .sec-futbol-pole-inside {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+    .sec-futbol-pole-inside .breadcrumb {
+        margin-bottom: 30px;
+    }
+    .sec-smotri-takje .f-pole-card {
+        margin-right: 0;
+        width: 100%;
+    }
+    .sec-smotri-takje .f-pole-slider .swiper-container {
+        width: 175px;
+    }
+    .f-inside-info {
+        padding-left: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    .f-inside-card {
+        padding: 0;
+        border: 0;
+    }
+    .f-inside-info-title {
+        font-size: 16px;
+    }
+    .f-inside-info-desc {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .uvelichit {
+        display: none;
+    }
+    .f-inside-gallery-slider {
+        padding-top: 20px;
+    }
+    .sec-smotri-takje .f-pole-slider .swiper-container {
+        width: 160px;
+    }
+}
+
+/*Futbol-Pole Inside - end*/
 /*--------------- Sport areas - start------------------------*/
 
 
