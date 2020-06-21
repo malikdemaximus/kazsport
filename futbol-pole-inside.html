@@ -203,11 +203,9 @@
             prevEl: '.swiper-button-prev',
         },
         breakpoints: {
-            // when window width is >= 320px
             575: {
                 slidesPerView: 3
             },
-            // when window width is >= 480px
             320: {
                 slidesPerView: 2
             },
@@ -216,7 +214,6 @@
             slideChange: function () {
                 let activeIndex =  this.activeIndex;
                 let imgSrc = $('.f-inside-gallery-swiper .swiper-slide img').eq(activeIndex).attr('src');
-                console.log(imgSrc)
                 $('.gallery-big-image').attr('src', imgSrc)
                 $('.fancy-gallery-link').attr('href', imgSrc)
             }
@@ -233,11 +230,6 @@
             prevEl: '.swiper-button-prev',
         },
     })
-
-    $('[data-fancybox="gallery"]').fancybox({
-        // Options will go here
-        // selector : '.f-inside-gallery-swiper .swiper-container img'
-    });
 </script>
 
 </body>
