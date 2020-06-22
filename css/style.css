@@ -636,6 +636,38 @@ button:focus {
 .footer-item .foot-item {
 	margin-bottom: 20px;
 }
+
+.dropbtn {
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 220px;
+	z-index: 20;
+	padding: 15px 15px 5px 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.dropdown-content a {
+	margin: 0;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.dropdown-content a:hover {color: #32CC8B;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
 @media (max-width: 750px) {
 	.a-second, .a-third, .a-four {
 		margin-left: 0;
@@ -1443,6 +1475,11 @@ button:focus {
 	display: flex;
 	width: 755px;
 	margin: 0 auto;
+}
+
+.f-pole-card:hover {
+	color: #374759;
+	text-decoration: none;
 }
 .f-pole-slider {
 	/*width: 265px;*/

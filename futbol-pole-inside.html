@@ -15,6 +15,81 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <body>
+<header>
+    <div class="black-header">
+        <div class="container">
+            <div class="inner-black">
+                <div class="mobile d-none d-md-block">
+                    <img src="images/call-icon.svg" alt="">
+                    <a href="#">+77074443692</a>
+                    <a href="#">+77014203692</a>
+                </div>
+                <p class="top-title">Строительство спорт площадок в РК</p>
+                <div class="cart-section d-none d-md-flex">
+                    <img src="images/cart-icon.svg" alt="" class="cart-icon">
+                    <div class="search-input">
+                        <input type="text" placeholder="Что вы ищите?">
+                        <img src="images/search-icon.svg" alt="" class="search-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-header">
+        <div class="container">
+            <div class="inner-white d-none d-md-flex">
+                <div class="left-side">
+                    <img src="images/big-logo.png" alt="" class="logo">
+                    <a href="/">Главная</a>
+                    <div class="dropdown">
+                        <a class="dropbtn">Товары и услуги</a>
+                        <div class="dropdown-content">
+                            <a href="/iss-gazon.html">Искусственный газон</a>
+                            <a href="/sport-areas.html">Строительство спортивных площадок</a>
+                        </div>
+                    </div>
+                    <a href="/onas.html">О нас</a>
+                    <a href="/contacts.html">Контакты</a>
+                    <a href="/oplata.html">Оплата и доставка</a>
+                    <a href="/futbol-pole.html">Наши работы</a>
+                    <a href="/news.html">Новости</a>
+                </div>
+                <div class="right-side">
+                    <button class="green-btn-outline">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="inner-white-mobile d-md-none">
+                <img src="images/mobile-logo.png" alt="" class="logo-m">
+                <div class="right-side">
+                    <img src="images/black-cart.svg" alt="" class="black-cart">
+                    <img src="images/menu-mobile-icon.svg" onclick="openNav()" alt="">
+                </div>
+                <div id="myNav" class="overlay">
+                    <img src="images/close-icon.svg" alt="" class="closebtn" onclick="closeNav()">
+                    <div class="overlay-content">
+                        <img src="images/mobile-logo.png" alt="" class="logo-mb">
+                        <p>Строительство спорт площадок в РК</p>
+                        <div class="search-input">
+                            <input type="text" placeholder="Что вы ищите?">
+                            <img src="images/search-icon.svg" alt="" class="search-icon">
+                        </div>
+                        <a href="/">Главная</a>
+                        <a href="/iss-gazon.html">Товары и услуги</a>
+                        <a href="/onas.html">О нас</a>
+                        <a href="/contacts.html">Контакты</a>
+                        <a href="/oplata.html">Оплата и доставка</a>
+                        <a href="/futbol-pole.html">Наши работы</a>
+                        <a href="/news.html">Новости</a>
+                        <div class="border-line"></div>
+                        <a href="">+7 (707) 444 36 92</a>
+                        <a href="">+7 (701) 420 36 92</a>
+                        <button class="green-btn-outline">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <div class="sec-futbol-pole-inside">
     <div class="container">
@@ -182,6 +257,37 @@
         </div>
     </div>
 </div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <img src="images/white-logo.svg" alt="" class="foot-item">
+                    <p>ТОО «КазСпортСтрой» <br>
+                        Все права защищены © 2020</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <p class="foot-item">Контакты</p>
+                    <div class="foot-item">
+                        <a href="#">+7 (707) 444 36 92</a>
+                        <a href="#">+7 (701) 420 36 92</a>
+                    </div>
+                    <p>КазахстанАлматыг. Алматы Рыскулова 93а, этаж-3, офис 212
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <p class="foot-item">Реквезиты</p>
+                    <p>ТОО «КазСпортСтрой» БИН 170840027142 Юридический адрес: г.Алматы Рыскулова 93а. БИК IRTYKZKA ИИК KZ2896502F0008875231
+                        АО «ForteBank» в г.Алматы Тел:+77074443692 www.kazsportstroi.kz</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script>
     var mySwiperInfo = new Swiper ('.f-inside-gallery-swiper .swiper-container', {
@@ -230,6 +336,15 @@
             prevEl: '.swiper-button-prev',
         },
     })
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
 </script>
 
 </body>

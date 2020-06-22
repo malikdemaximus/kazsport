@@ -15,13 +15,13 @@
     <div class="black-header">
         <div class="container">
             <div class="inner-black">
-                <div class="mobile">
+                <div class="mobile d-none d-md-block">
                     <img src="images/call-icon.svg" alt="">
                     <a href="#">+77074443692</a>
                     <a href="#">+77014203692</a>
                 </div>
                 <p class="top-title">Строительство спорт площадок в РК</p>
-                <div class="cart-section">
+                <div class="cart-section d-none d-md-flex">
                     <img src="images/cart-icon.svg" alt="" class="cart-icon">
                     <div class="search-input">
                         <input type="text" placeholder="Что вы ищите?">
@@ -33,18 +33,48 @@
     </div>
     <div class="white-header">
         <div class="container">
-            <div class="inner-white">
+            <div class="inner-white d-none d-md-flex">
                 <div class="left-side">
                     <img src="images/big-logo.png" alt="" class="logo">
                     <a href="/">Главная</a>
                     <a href="/iss-gazon.html">Товары и услуги</a>
                     <a href="/onas.html">О нас</a>
                     <a href="/contacts.html">Контакты</a>
-                    <a href="#">Оплата и доставка</a>
-                    <a href="#">Наши работы</a>
+                    <a href="/oplata.html">Оплата и доставка</a>
+                    <a href="/futbol-pole.html">Наши работы</a>
+                    <a href="/news.html">Новости</a>
                 </div>
                 <div class="right-side">
                     <button class="green-btn-outline">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="inner-white-mobile d-md-none">
+                <img src="images/mobile-logo.png" alt="" class="logo-m">
+                <div class="right-side">
+                    <img src="images/black-cart.svg" alt="" class="black-cart">
+                    <img src="images/menu-mobile-icon.svg" onclick="openNav()" alt="">
+                </div>
+                <div id="myNav" class="overlay">
+                    <img src="images/close-icon.svg" alt="" class="closebtn" onclick="closeNav()">
+                    <div class="overlay-content">
+                        <img src="images/mobile-logo.png" alt="" class="logo-mb">
+                        <p>Строительство спорт площадок в РК</p>
+                        <div class="search-input">
+                            <input type="text" placeholder="Что вы ищите?">
+                            <img src="images/search-icon.svg" alt="" class="search-icon">
+                        </div>
+                        <a href="/">Главная</a>
+                        <a href="/iss-gazon.html">Товары и услуги</a>
+                        <a href="/onas.html">О нас</a>
+                        <a href="/contacts.html">Контакты</a>
+                        <a href="/oplata.html">Оплата и доставка</a>
+                        <a href="/futbol-pole.html">Наши работы</a>
+                        <a href="/news.html">Новости</a>
+                        <div class="border-line"></div>
+                        <a href="">+7 (707) 444 36 92</a>
+                        <a href="">+7 (701) 420 36 92</a>
+                        <button class="green-btn-outline">Оставить заявку</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -199,6 +229,14 @@
         </div>
     </div>
 </footer>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
 
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
 </body>
 </html>
