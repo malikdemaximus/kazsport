@@ -128,29 +128,53 @@ button:focus {
 .slider {
 	width: 100%;
 	height: 600px;
-	background: url('../images/slide-img-1.png') no-repeat center / cover;
+	background: url('../images/Rectangle1.png') no-repeat center / cover;
 	position: relative;
 }
-
 .slider:nth-child(2) {
-	background: url('../images/bg-img-2.png') no-repeat center / cover;
+	background: url('../images/Rectangle2.png') no-repeat center / cover;
 }
 .slider:nth-child(3) {
-	background: url('../images/bg-img-3.png') no-repeat center / cover;
+	background: url('../images/Rectangle3.png') no-repeat center / cover;
+}
+.slider:nth-child(4) {
+	background: url('../images/Rectangle4.png') no-repeat center / cover;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
 	width: 80px;
 	height: 80px;
-	background: url("../images/bullet-img-1.png") no-repeat center;
+	background: url("../images/Ellipse1.png") no-repeat center;
 	margin: 0 15px;
 	opacity: unset;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2) {
-	background: url("../images/bullet-img-2.png") no-repeat center;
+	background: url("../images/Ellipse2.png") no-repeat center;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2) {
-	background: url("../images/bullet-img-3.png") no-repeat center;
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(3) {
+	background: url("../images/Ellipse3.png") no-repeat center;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(4) {
+	background: url("../images/Ellipse4.png") no-repeat center;
+}
+.social-icons {
+	position: absolute;
+	right: 30px;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+.social-icons a {
+	display: block;
+	margin-bottom: 15px;
+}
+@media (max-width: 991.98px) {
+	.social-icons {
+		display: none;
+	}
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
