@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пойск</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="black-header">
+        <div class="container">
+            <div class="inner-black">
+                <div class="mobile d-none d-md-flex">
+                    <img src="images/call-icon.svg" alt="">
+                    <a href="#">+77074443692</a>
+                    <a href="#">+77014203692</a>
+                </div>
+                <p class="top-title">Строительство спорт площадок в РК</p>
+                <div class="cart-section d-none d-md-flex">
+                    <div class="cart-icon-block">
+                        <img src="images/cart-icon.svg" alt="" class="cart-icon">
+                        <div class="cart-red-count">1</div>
+                    </div>
+                    <div class="search-input">
+                        <input type="text" placeholder="Что вы ищите?">
+                        <img src="images/search-icon.svg" alt="" class="search-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-header">
+        <div class="container">
+            <div class="inner-white d-none d-md-flex">
+                <div class="left-side">
+                    <img src="images/big-logo.png" alt="" class="logo">
+                    <a href="/">Главная</a>
+                    <div class="dropdown">
+                        <a class="dropbtn">Товары и услуги</a>
+                        <div class="dropdown-content">
+                            <a href="/iss-gazon.html">Искусственный газон</a>
+                            <a href="/sport-areas.html">Строительство спортивных площадок</a>
+                        </div>
+                    </div>
+                    <a href="/onas.html">О нас</a>
+                    <a href="/contacts.html">Контакты</a>
+                    <a href="/oplata.html">Оплата и доставка</a>
+                    <a href="/futbol-pole.html">Наши работы</a>
+                    <a href="/news.html">Новости</a>
+                </div>
+                <div class="right-side">
+                    <button class="green-btn-outline">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="inner-white-mobile d-md-none">
+                <img src="images/mobile-logo.png" alt="" class="logo-m">
+                <div class="right-side">
+                    <div class="cart-icon-block-mobile">
+                        <img src="images/black-cart.svg" alt="" class="black-cart">
+                        <div class="cart-red-count">1</div>
+                    </div>
+                    <img src="images/menu-mobile-icon.svg" onclick="openNav()" alt="">
+                </div>
+                <div id="myNav" class="overlay">
+                    <img src="images/close-icon.svg" alt="" class="closebtn" onclick="closeNav()">
+                    <div class="overlay-content">
+                        <img src="images/mobile-logo.png" alt="" class="logo-mb">
+                        <p>Строительство спорт площадок в РК</p>
+                        <div class="search-input">
+                            <input type="text" placeholder="Что вы ищите?">
+                            <img src="images/search-icon.svg" alt="" class="search-icon">
+                        </div>
+                        <a href="/">Главная</a>
+                        <a href="/iss-gazon.html">Товары и услуги</a>
+                        <a href="/onas.html">О нас</a>
+                        <a href="/contacts.html">Контакты</a>
+                        <a href="/oplata.html">Оплата и доставка</a>
+                        <a href="/futbol-pole.html">Наши работы</a>
+                        <a href="/news.html">Новости</a>
+                        <div class="border-line"></div>
+                        <a href="">+7 (707) 444 36 92</a>
+                        <a href="">+7 (701) 420 36 92</a>
+                        <button class="green-btn-outline">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="sec-search-results">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <div class="old-price"><span class="old">15 200 Т</span> <span>-15%</span></div>
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/card-added.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <div class="old-price"><span class="old">15 200 Т</span> <span>-15%</span></div>
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <div class="old-price"><span class="old">15 200 Т</span> <span>-15%</span></div>
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <div class="old-price"><span class="old">15 200 Т</span> <span>-15%</span></div>
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/card-img-1.png" alt="">
+                        <div class="code">В наличии / Код: 111</div>
+                        <div class="price">
+                            <p class="new-price">12 920 Т/кв.м</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p class="card-title">Строительство футбольного поля открытого типа</p>
+                        <div class="card-footer">
+                            <div class="call">
+                                <img src="images/green-phone.svg" alt="">
+                                <a href="#">+77074443692</a>
+                            </div>
+                            <img src="images/red-cart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="sec-detalnaia-inform">
+    <div class="container">
+        <p class="detail-info-text">Для получения более детальной информации, заказа искусственного газона, либо установки спортвиной площадки оставьте заявку и наши менеджера с вами свяжуться </p>
+        <button class="green-btn detail-info-btn"><span>Оставить заявку</span><img src="images/right-arrow.png" alt=""></button>
+    </div>
+</div>
+
+
+</body>
+</html>
