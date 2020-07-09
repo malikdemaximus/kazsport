@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <header>
@@ -55,7 +56,7 @@
                     <a href="/news.html">Новости</a>
                 </div>
                 <div class="right-side">
-                    <button class="green-btn-outline">Оставить заявку</button>
+                    <button class="green-btn-outline" type="button" data-toggle="modal" data-target="#zayavkaModal">Оставить заявку</button>
                 </div>
             </div>
             <div class="inner-white-mobile d-md-none">
@@ -86,7 +87,7 @@
                         <div class="border-line"></div>
                         <a href="">+7 (707) 444 36 92</a>
                         <a href="">+7 (701) 420 36 92</a>
-                        <button class="green-btn-outline">Оставить заявку</button>
+                        <button class="green-btn-outline" type="button" data-toggle="modal" data-target="#zayavkaModal">Оставить заявку</button>
                     </div>
                 </div>
             </div>
@@ -129,6 +130,42 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade zayavka-modal" id="zayavkaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <form>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="images/modal-close.png"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Имя</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Введите имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Телефон</label>
+                        <input type="text" class="form-control" id="recipient-phone" placeholder="Введите телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">E-mail</label>
+                        <input type="text" class="form-control" id="recipient-email" placeholder="Введите e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Сообщение</label>
+                        <textarea class="form-control" id="message-text" placeholder="Введите сообщение..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="green-btn detail-info-btn" type="submit"><span>Отправить</span></button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <script>
         const reorganizeCartOpen = function() {
             if ($('.cart-open-list').children().length > 0) {
@@ -147,7 +184,6 @@
             });
         }
     </script>
-
     <script>
         clickOutside()
         reorganizeCartOpen();
@@ -156,6 +192,15 @@
             $('.cart-open-block').toggle()
         })
 
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
     </script>
 </header>
 

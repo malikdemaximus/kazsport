@@ -2232,5 +2232,71 @@ header {
 	padding-top: 42px;
 	padding-bottom: 120px;
 }
-
 /*SEARCH page - end*/
+
+/*Modal - Zayavka - start*/
+.zayavka-modal .modal-title {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 49px;
+	color: #374759;
+}
+.zayavka-modal .modal-content {
+	border-radius: 20px;
+}
+.zayavka-modal .modal-header {
+	padding: 22px 30px;
+	border-bottom: 0;
+}
+.zayavka-modal .modal-footer {
+	border-top: 0;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.zayavka-modal .col-form-label {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	color: #374759;
+	padding-bottom: 5px;
+}
+.zayavka-modal .modal-body {
+	padding: 0 30px;
+}
+.zayavka-modal textarea.form-control {
+	height: 175px;
+}
+.zayavka-modal .modal-header .close, .zayavka-modal .modal-header .close:hover {
+	opacity: 1;
+}
+.zayavka-modal .form-control {
+	font-size: 20px;
+}
+@media (max-width: 767px) {
+	.zayavka-modal .modal-title {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.zayavka-modal .modal-header .close img {
+		width: 30px;
+		height: 30px;
+	}
+	.zayavka-modal .modal-header {
+		padding: 22px 20px;
+	}
+	.zayavka-modal .modal-body {
+		padding: 0 20px;
+	}
+	.zayavka-modal .col-form-label {
+		font-size: 16px;
+		padding-top: 0;
+	}
+	.zayavka-modal .form-control {
+		font-size: 16px;
+	}
+	.zayavka-modal .modal-footer {
+		padding-bottom: 22px;
+		padding-top: 4px;
+	}
+}
+/*Modal - Zayavka - end*/
